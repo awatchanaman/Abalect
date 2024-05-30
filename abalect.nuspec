@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>abalect</id>
+    <version>2.4.0</version>
+    <title>AnmanieSMP</title>
+    <owners>awatchanaman</owners>
+    <authors>Philippe Cheve</authors>
+    <projectUrl>http://tiry73.free.fr/anm/anmanie.htm</projectUrl>
+    <iconUrl>http://tiry73.free.fr/anm/ima/anmlog.pnghttp://tiry73.free.fr/anm/ima/anmlog.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/awatchanaman/AnmanieSMP</projectSourceUrl>
+    <tags>deformer image photo educatif</tags>
+    <summary>free software that allows you to distort your images, photos, etc.</summary>
+    <description>AnmanieSMP is a free software that allows you to distort your images, photos, etc. at will.
+With AnmanieSMP, have fun simulating the passage through the hands of Mike Tyson of one of your relatives (as above with the Mona Lisa), or more subtly, retouch, in an almost professional way.
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
