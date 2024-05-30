@@ -1,26 +1,18 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageArgs = @{
-  packageName    = 'abalect'
-  softwareName   = 'abalect*'
-  fileType       = 'exe'
-  url            = 'https://www.abalog.fr/Fichiers%20divers/abalect.exe'
-  silentArgs     = '/VERYSILENT'
-  validExitCodes = @(0)
-  checksum       = '9D3487360D48AF87E4AB519B0FD1672EE6D48E6883D5EBD41A600AA2F9B4061A'
-  checksumType   = 'sha256'
-  }
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$fileLocation = Join-Path $toolsDir 'abalect.zip'
+$Dossier = Join-Path $env:Programfiles "\Abalect"
+$exeLocation = Join-Path $Dossier "abalect.exe"
 
-Install-ChocolateyPackage @packageArgs
+#Installation du package
+Get-ChocolateyUnzip $fileLocation -Destination $Dossier
 
-#Suppression du  Raccourci currentuserr sur le bureau
-#Remove-Item -Path "$env:USERPROFILE\Desktop\Abalect.lnk" -Recurse -ErrorAction SilentlyContinue
-
-#Mise en place du Raccourci alluser sur le bureau
-#$filepath = Join-Path "${env:programfiles(x86)}\Abalect" 'Abalect.exe'
-#Install-ChocolateyShortcut -ShortcutFilePath "$env:PUBLIC\Desktop\Abalect.lnk" -TargetPath "$filepath"
-
-#if ((Get-PackageParameters).NoDesktopShortcut) {
-#    Write-Host "(Get-PackageParameters).NoDesktopShortcut)"
-#    Remove-Item -Path "$env:PUBLIC\Desktop\Abalect.lnk"
-#    }
+#On créer un raccourci OUAIP dans le menu demarrer
+If (Test-Path $exeLocation) {
+    #Mise en place du Raccourci alluser sur le bureau
+    Install-ChocolateyShortcut -ShortcutFilePath "$env:PUBLIC\Desktop\Abalect.lnk" -TargetPath "$exeLocation"
+    }
+    
+#Suppression du  ZIP dans tools
+Remove-Item -Path "$fileLocation" -Recurse -ErrorAction SilentlyContinue
