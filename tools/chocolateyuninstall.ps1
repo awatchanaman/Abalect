@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'anmanieSMP*' 
+  softwareName  = 'abalect*' 
   fileType      = 'EXE'
   silentArgs    = "/SILENT"
   validExitCodes= @(0) 

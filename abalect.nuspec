@@ -3,18 +3,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>abalect</id>
-    <version>2.4.0</version>
-    <title>AnmanieSMP</title>
+    <version>1.0.0</version>
+    <title>Abalect</title>
     <owners>awatchanaman</owners>
     <authors>Philippe Cheve</authors>
-    <projectUrl>http://tiry73.free.fr/anm/anmanie.htm</projectUrl>
-    <iconUrl>http://tiry73.free.fr/anm/ima/anmlog.pnghttp://tiry73.free.fr/anm/ima/anmlog.png</iconUrl>
+    <projectUrl>https://pedagogie.ac-orleans-tours.fr/enseignement_et_pedagogie_par_departement/enseignement_et_pedagogie_37/numerique37/logiciels_et_ressources/ressources_pedagogiques/logiciels_gratuits/</projectUrl>
+    <iconUrl>https://www.orthomalin.com/sites/default/files/logiciel_screenshot/abalect.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/awatchanaman/AnmanieSMP</projectSourceUrl>
+    <projectSourceUrl>https://github.com/awatchanaman/Abalect</projectSourceUrl>
     <tags>deformer image photo educatif</tags>
-    <summary>free software that allows you to distort your images, photos, etc.</summary>
-    <description>AnmanieSMP is a free software that allows you to distort your images, photos, etc. at will.
-With AnmanieSMP, have fun simulating the passage through the hands of Mike Tyson of one of your relatives (as above with the Mona Lisa), or more subtly, retouch, in an almost professional way.
+    <summary>Abalect pour un entrainement a la lecture et Abacalc pour revoir les techniques operatoires de base.</summary>
+    <description>Abalect pour un entrainement a la lecture et Abacalc pour revoir les techniques operatoires de base.
     </description>
   </metadata>
   <files>
