@@ -9,9 +9,11 @@
     <authors>Philippe Cheve</authors>
     <projectUrl>https://pedagogie.ac-orleans-tours.fr/enseignement_et_pedagogie_par_departement/enseignement_et_pedagogie_37/numerique37/logiciels_et_ressources/ressources_pedagogiques/logiciels_gratuits/</projectUrl>
     <iconUrl>https://www.orthomalin.com/sites/default/files/logiciel_screenshot/abalect.jpg</iconUrl>
+    <packageSourceUrl>https://www.abalog.fr/Fichiers%20divers/abalect.exe</packageSourceUrl>
     <licenseUrl>https://github.com/awatchanaman/Abalect/blob/main/tools/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/awatchanaman/Abalect</projectSourceUrl>
+    <releaseNotes> unzip abalect </releaseNotes>
     <tags>deformer image photo educatif</tags>
     <summary>Abalect pour un entrainement a la lecture et Abacalc pour revoir les techniques operatoires de base.</summary>
     <description>Abalect pour un entrainement a la lecture et Abacalc pour revoir les techniques operatoires de base.
