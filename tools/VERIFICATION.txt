@@ -1,0 +1,42 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+# Verification of Package Files
+
+This file provides instructions on how to verify the integrity and authenticity of the files included in this Chocolatey package. This ensures that the files have not been tampered with and are safe to use.
+
+## Steps to Verify the Files
+
+1. **Download the Official Binary:**
+   Visit the official website and download the binary from the official source.
+
+   Official website: [http://philippe.cheve.pagesperso-orange.fr/abalect.htm](http://philippe.cheve.pagesperso-orange.fr/abalect.htm)
+
+2. **Compare Checksums:**
+   After downloading the file, you can verify its integrity by comparing its checksum with the one provided in this package.
+
+   Here is the checksum for `abalect.exe` included in this package:
+
+
+You can calculate the checksum of your downloaded file using the following command:
+
+- For Windows:
+  ```
+  get-hashfile <path-to-your-file>\abalect.exe SHA256
+  ```
+
+
+3. **Verify Signature (if applicable):**
+If the official binary is signed, you can verify the digital signature to ensure it is from the legitimate vendor.
+
+- On Windows, you can check the signature using the Properties dialog:
+  1. Right-click the downloaded file.
+  2. Select `Properties`.
+  3. Go to the `Digital Signatures` tab.
+  4. Verify that the signature is from the correct vendor.
+
+---
+
+Note: actual SHA256 checksum of `abalect.exe` is `9D3487360D48AF87E4AB519B0FD1672EE6D48E6883D5EBD41A600AA2F9B4061A`

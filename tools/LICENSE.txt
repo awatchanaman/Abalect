@@ -1,0 +1,48 @@
+﻿LICENSE
+
+Abalect Freeware License
+------------------------
+
+Copyright (c) 2010 Philippe Chevé
+
+1. License
+-----------
+Abalect is freeware. This means that the software is provided at no cost, and you are free to use it for personal or commercial purposes. By using this software, you agree to the terms and conditions outlined in this document.
+
+2. Redistribution
+------------------
+You are permitted to redistribute Abalect in its original form, without any modifications, provided that you include this license document and any associated documentation. Redistribution must remain free of charge.
+
+3. Restrictions
+----------------
+You may not:
+- Sell or distribute Abalect for profit without the explicit written permission of Philippe Chevé.
+- Reverse engineer, decompile, or disassemble the software.
+- Remove or alter any copyright notices or this license document in the software.
+
+4. Disclaimer of Warranty
+--------------------------
+Abalect is provided "as is" without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the software is with you.
+
+5. Limitation of Liability
+---------------------------
+In no event shall Philippe Chevé be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use or inability to use this software, even if Philippe Chevé has been advised of the possibility of such damages.
+
+6. Termination
+---------------
+This license is effective until terminated. You may terminate it at any time by destroying Abalect, along with all copies, modifications, and merged portions in any form. This license will also terminate if you fail to comply with any term or condition of this agreement. Upon such termination, you agree to destroy Abalect and all copies in your possession.
+
+7. Governing Law
+-----------------
+This license shall be governed by and construed in accordance with the laws of the jurisdiction in which Philippe Chevé resides, without regard to its conflict of law principles.
+
+8. Contact
+-----------
+For any questions regarding this license, please contact Philippe Chevé at abalect.2010.support@orange.fr.
+
+Thank you for using Abalect.
+
+-----------------------------
+Philippe Chevé
+2010
+
